@@ -1,0 +1,53 @@
+body {
+    background-image: url(../foto/back.gif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center top;   
+    font-family: 'Teko', sans-serif;
+    color: white;
+}
+
+.logo {
+    max-height: 320px;
+    max-width: 240px;
+}
+
+.char {
+    max-height: 326px;
+    max-width: 365px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    max-height: 200px;
+}
+
+td h1 {
+    position: static;
+    text-align: center;
+}
+
+td img {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 65px;
+    margin-top: 25px;
+}
+
+td img:hover {
+    max-height: 391.2px;
+    max-width: 438px;
+    margin-bottom: 0px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: white; 
+}
+
+.popis {
+    display: inline-block;
+    margin-left: 500px;
+}
